@@ -1,6 +1,8 @@
-# Programming-Club
+# Welcome to the Programming and Operating Systems Course 👋
 
-Welcome to the Programming Club! This small repository will help you understand basic programming concepts, algorithms, functions, and methods. You will find some theory and a series of examples and exercises to practice, and they will be solved so you can understand the code. Don't worry if you code it differently; as programmers, we think differently when solving a problem. 
+First of all, I invite you to visit my website, where you can not only get more information about this course but also have Premium access so that I can personally teach you how to program step-by-step.
+
+This small repository will help you understand basic programming concepts, algorithms, functions, and methods. You will find some theory and a series of examples and exercises to practice, and they will be solved so you can understand the code. Don't worry if you code it differently; as programmers, we think differently when solving a problem. 
 
 The important thing is that it is efficient and functional. The main languages we will be looking at are [Java](https://www.oracle.com/mx/java/technologies/downloads/) and [Python](https://www.python.org/downloads/). I recommend installing them and using [VSCode](https://code.visualstudio.com).
 
