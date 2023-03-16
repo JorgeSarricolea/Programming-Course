@@ -4,7 +4,7 @@ Welcome to the Programming Club! This small repository will help you understand 
 
 The important thing is that it is efficient and functional. The main languages we will be looking at are Java and Python. I recommend installing them and using VSCode.
 
-Remember that before starting to program, I recommend starting with the [Introduction to Git and Github](https://github.com/JorgeSarricolea/Programming-Club/edit/main/README.md), which you can find in another repository on my profile.
+Remember that before starting to program, I recommend starting with the [Introduction to Git and Github](https://github.com/JorgeSarricolea/Programming-Club/edit/main/README.md).
 
 ## Fundamentals
 
