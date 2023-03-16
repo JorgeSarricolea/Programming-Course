@@ -6,6 +6,13 @@ This small repository will help you understand basic programming concepts, algor
 
 The important thing is that it is efficient and functional. The main languages we will be looking at are [Java](https://www.oracle.com/mx/java/technologies/downloads/) and [Python](https://www.python.org/downloads/). I recommend installing them and using [VSCode](https://code.visualstudio.com).
 
+Here is a list of extensions that I recommend you install on your VSCode:
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [Ident Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+
 Remember that before starting to program, I recommend starting with the [Introduction to Git and Github](https://github.com/JorgeSarricolea/Programming-Club/edit/main/README.md).
 
 ## Fundamentals
