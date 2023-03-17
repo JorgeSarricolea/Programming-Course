@@ -199,4 +199,107 @@ dequeue(self): removes and returns the element at the beginning of the queue, i.
 size(self): returns the number of elements in the queue.
 
 ## Trees
+
+Trees are a hierarchical data structure consisting of nodes interconnected by pointers. Each node has a value and can have zero, one, or two children. Trees are commonly used in data searching and organization.
+
+```
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+class BinaryTree:
+    def __init__(self):
+        self.root = None
+
+    def add(self, value):
+        if self.root is None:
+            self.root = TreeNode(value)
+        else:
+            self.add(value, self.root)
+
+    def add(self, value, currentNode):
+        if value < currentNode.value:
+            if currentNode.left is None:
+                currentNode.left = TreeNode(value)
+            else:
+                self.add(value, currentNode.left)
+        elif value > currentNode.value:
+            if currentNode.right is None:
+                currentNode.right = TreeNode(value)
+            else:
+                self.add(value, currentNode.right)
+
+    def inorder(self, currentNode):
+        if currentNode is not None:
+            self.inorden(currentNode.left)
+            print(currentNode.valor)
+            self.inorden(currentNode.right)
+
+tree = BinaryTree()
+tree.add(5)
+tree.add(3)
+tree.add(7)
+tree.add(2)
+tree.add(4)
+tree.add(6)
+tree.add(8)
+
+tree.inorder(tree.root)
+```
+
+This program creates a class called NodoArbol that represents a node of a tree, with a value and two pointers, one for the left child and one for the right child. It also creates a class called ArbolBinario that represents the tree itself, with an initially empty root. Then, it defines an agregar() method that adds a new node to the tree in its corresponding position.
+
+The _agregar() method is a helper function that is called recursively to find the appropriate position for the new node, depending on whether its value is greater or less than the value of the current node.
+
+Finally, the program shows the in-order traversal of the tree, which means that all nodes in the left subtree are visited first, then the current node, and then the nodes in the right subtree.
+
 ## Hash tables
+
+A hash table is a data structure that uses a hash function to map keys to values. This allows for fast and efficient search of elements in the table through their key. Elements in a hash table can be added, removed, updated, and searched efficiently, making hash tables a very useful data structure in many programming problems.
+
+```
+# Creating a hash table
+hash_table = {}
+
+# Adding elements to the hash table
+hash_table['key1'] = 'value1'
+hash_table['key2'] = 'value2'
+hash_table['key3'] = 'value3'
+
+# Accessing an element in the hash table
+print(hash_table['key2'])  # Output: value2
+
+# Replacing the value of an element in the hash table
+hash_table['key3'] = 'new_value'
+print(hash_table['key3'])  # Output: new_value
+
+# Removing an element from the hash table
+del hash_table['key1']
+print(hash_table)  # Output: {'key2': 'value2', 'key3': 'new_value'}
+
+# Checking if a key is in the hash table
+if 'key2' in hash_table:
+    print("The key 'key2' is in the hash table.")  # Output: The key 'key2' is in the hash table
+
+# Getting a list of all keys in the hash table
+keys_list = list(hash_table.keys())
+print(keys_list)  # Output: ['key2', 'key3']
+```
+
+The above code is an example of working with a hash table in Python.
+
+In the first line, an empty hash table is created using an empty dictionary: hash_table = {}.
+
+Then, three elements are added to the hash table using the key-value format: hash_table['key1'] = 'value1', hash_table['key2'] = 'value2', hash_table['key3'] = 'value3'.
+
+Next, the value associated with the key 'key2' is accessed using the syntax hash_table['key2'], which returns the value 'value2'.
+
+Then, the value of the key 'key3' is replaced with 'new_value' using the syntax hash_table['key3'] = 'new_value', and the new value is printed with print(hash_table['key3']).
+
+Next, the element associated with the key 'key1' is removed using the syntax del hash_table['key1'], and the current hash table is printed with print(hash_table).
+
+It is checked whether the key 'key2' is in the hash table with if 'key2' in hash_table:, and a message is printed if it is true.
+
+Finally, a list of all keys in the hash table is obtained with list(hash_table.keys()), which returns a list of text strings with the values 'key2' and 'key3'.
