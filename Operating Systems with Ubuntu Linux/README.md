@@ -25,3 +25,20 @@ Another advantage of Ubuntu is its compatibility with a wide range of hardware a
 Ubuntu is also known for its active and committed community, meaning there are a wealth of online resources and support available. Additionally, it has a large amount of documentation, tutorials, and online forums to help users troubleshoot problems and improve their experience with the operating system.
 
 In summary, Ubuntu is a popular and reliable Linux distribution that offers security, compatibility, and a large support community for users. It is an excellent choice for those seeking an open-source and free alternative to commercial operating systems.
+
+Now to practice our programming skills with Python, we will create a menu using commands in the Ubuntu (Linux) terminal:
+
+STARTING LINUX COMMAND MENU
+
+1. Find the largest file in D2 and the smallest file in D1.
+2. Compare the files in the two directories (D1 and D2) and show the most recent and oldest.
+3. Copy the contents of file2.txt into file3.txt.
+4. Count the number of occurrences of the letters "r" and "R" in a file in D1.
+5. Change the permissions of a file to executable only.
+6. Change the owner and group of a file in D2.
+7. Create a script to rename file4.txt.
+8. Encrypt and decrypt file1.txt.
+9. Quit.
+
+
+Remember that in Python there is no Switch Case, so If statements would suffice.
