@@ -11,3 +11,5 @@ Among the main functions of an operating system are the management of hardware r
 In summary, the operating system is a fundamental part of any electronic device, as it is responsible for managing resources and allowing users and programs to interact effectively and efficiently with the machine.
 
 For the convenience of the course and for many of you, we will be using a Virtual Machine with [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to install the [Ubuntu](https://ubuntu.com/download/desktop) Operating System.
+
+I will leave you a link to YouTube so you can watch the installation of VirtualBox and Ubuntu. [How to install Ubuntu 22.10 LTS in VirtualBox 2023](https://www.youtube.com/watch?v=hYaCCpvjsEY)
