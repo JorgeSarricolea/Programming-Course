@@ -15,27 +15,33 @@ Some common examples of data structures include:
 
 As you learn more about programming and software development, you'll learn how to use these data structures to solve problems and improve the efficiency of your programs.
 
-# Crear un arreglo de números enteros
+Below you will find an example of each type of data structure, programmed in Python:
+
+
+## Arrays
+
+```
+# Create an array of integers.
 arr = [1, 2, 3, 4, 5]
 
-# Imprimir el arreglo completo
-print("El arreglo es:", arr)
+# Print the complete array.
+print("Array:", arr)
 
-# Acceder al primer elemento del arreglo (índice 0)
-print("El primer elemento es:", arr[0])
+# Access the first element of the array. (index 0)
+print("The first element is:", arr[0])
 
-# Acceder al último elemento del arreglo (índice -1)
-print("El último elemento es:", arr[-1])
+# Access the last element of the array. (index -1)
+print("The last element is:", arr[-1])
 
-# Modificar un elemento del arreglo (índice 3)
+# Modify an element of the array. (index 3)
 arr[3] = 10
-print("El nuevo arreglo es:", arr)
+print("The new element is", arr)
 
-# Obtener la longitud del arreglo
-print("La longitud del arreglo es:", len(arr))
+# Get the length of the array.
+print("The length of the array is:", len(arr))
 
-# Recorrer el arreglo usando un ciclo for
-print("Los elementos del arreglo son:")
-for elemento in arr:
-    print(elemento)
-
+# Iterate over the array using a for loop.
+print("The elements of the array are:")
+for element in arr:
+    print(element)
+```
