@@ -48,6 +48,8 @@ public class MatrixSum {
                 System.out.print(sumMatrix[i][j] + " ");
             }
             System.out.println();
+
+            input.close();
         }
     }
 }

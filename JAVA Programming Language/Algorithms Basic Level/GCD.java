@@ -15,6 +15,7 @@ public class GCD {
         int gcd = findGCD(num1, num2);
 
         System.out.println("The greatest common divisor of " + num1 + " and " + num2 + " is " + gcd);
+        input.close();
     }
 
     public static int findGCD(int num1, int num2) {

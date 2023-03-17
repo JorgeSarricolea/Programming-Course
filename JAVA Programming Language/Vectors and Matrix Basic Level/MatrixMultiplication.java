@@ -19,7 +19,6 @@ public class MatrixMultiplication {
         // Check if matrices can be multiplied
         if (colsA != rowsB) {
             System.out.println("Error: The number of columns in matrix A must equal the number of rows in matrix B.");
-            return;
         }
 
         // Input elements of matrix A
@@ -60,5 +59,7 @@ public class MatrixMultiplication {
             }
             System.out.println();
         }
+
+        sc.close();
     }
 }
