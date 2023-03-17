@@ -45,3 +45,11 @@ print("The elements of the array are:")
 for element in arr:
     print(element)
 ```
+
+In this program, an array of integers called "arr" is created using brackets and separating the elements with commas. Then, the complete array is printed using the "print" function.
+
+The elements of the array are accessed using indices, where the first element has index 0 and the last has index -1. To modify an element, simply assign a new value to the corresponding index.
+
+The length of the array is obtained using the "len" function. To traverse the array, a for loop is used, where each element is assigned to the variable "element" in each iteration of the loop.
+
+## Linked lists
