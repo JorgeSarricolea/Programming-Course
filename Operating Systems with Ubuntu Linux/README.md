@@ -42,3 +42,5 @@ STARTING LINUX COMMAND MENU
 
 
 Remember that in Python there is no Switch Case, so If statements would suffice.
+
+You can find the program already made, just keep in mind that it is programmed according to my files and directories, the important thing is that you understand perfectly how the commands are used and what each one does, for this reason, I have also created a repository of [Linux Commands](https://github.com/JorgeSarricolea/Linux-Commands).
