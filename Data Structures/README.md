@@ -96,6 +96,86 @@ The printList function traverses the linked list and prints the values of each n
 Finally, an example of using the linked list is created. An instance of the LinkedList class is created and three nodes are added to the list, whose values are 1, 2, and 3. Then, the linked list is printed using the printList function.
 
 ## Stacks
+
+A stack is a linear data structure that follows the principle of "last in, first out" (LIFO). This means that the last element inserted into the stack is the first one to be removed. This is similar to a stack of plates, where the last plate that was placed on top is the first one to be used.
+
+In terms of implementation, a stack can be built using a list, where adding elements is done with the append() function and removing elements is done with the pop() function without any arguments. Additionally, the peek() function can be used to view the top element of the stack without removing it, and the size() function can be used to get the number of elements in the stack.
+
+```
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def is_empty(self):
+        return self.items == []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop()
+
+    def peek(self):
+        return self.items[-1]
+
+    def size(self):
+        return len(self.items)
+
+
+# Example of using the "Stack" data structure.
+stack = Stack()
+
+# Check if the stack is empty.
+print(stack.is_empty())  # Output: True
+
+# Add elements to the stack.
+stack.push(1)
+stack.push(2)
+stack.push(3)
+
+# Check the size of the stack.
+print(stack.size())  # Output: 3
+
+# Check the top element of the stack (without popping it).
+print(stack.peek())  # Output: 3
+
+# Pop elements from the stack.
+print(stack.pop())  # Output: 3
+print(stack.pop())  # Output: 2
+print(stack.pop())  # Output: 1
+
+# Check if the stack is empty after popping all elements.
+print(stack.is_empty())  # Output: True
+```
+The above program implements a data structure known as a Stack in Python. A stack is a linear data structure that follows the principle of Last In First Out (LIFO), which means that the last element added to the stack is the first to be removed. The implementation of the stack uses a Python list as its underlying structure.
+
+The constructor of the Stack class initializes an empty list called "items" that will be used to store the elements of the stack. The is_empty() function returns True if the list is empty and False otherwise. The push(item) function adds a new element to the end of the list using the append() method. The pop() function removes the last element added to the list using the pop() method with no arguments, which removes the element at index -1. The size() function returns the length of the list of elements.
+
 ## Queues
+```
+class Queue:
+    def __init__(self):
+        self.items = []
+
+    def is_empty(self):
+        return self.items == []
+
+    def enqueue(self, item):
+        self.items.append(item)
+
+    def dequeue(self):
+        return self.items.pop(0)
+
+    def size(self):
+        return len(self.items)
+
+mi_cola = Queue()
+
+mi_cola.enqueue(5) # agrega el elemento 5 al final de la cola
+mi_cola.enqueue(10) # agrega el elemento 10 al final de la cola
+print(mi_cola.size()) # imprime 2
+print(mi_cola.dequeue()) # elimina y devuelve el primer elemento de la cola (5)
+print(mi_cola.is_empty()) # imprime False, ya que la cola aún tiene un elemento (10)
+```
 ## Trees
 ## Hash tables
