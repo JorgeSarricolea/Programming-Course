@@ -152,6 +152,9 @@ The above program implements a data structure known as a Stack in Python. A stac
 The constructor of the Stack class initializes an empty list called "items" that will be used to store the elements of the stack. The is_empty() function returns True if the list is empty and False otherwise. The push(item) function adds a new element to the end of the list using the append() method. The pop() function removes the last element added to the list using the pop() method with no arguments, which removes the element at index -1. The size() function returns the length of the list of elements.
 
 ## Queues
+
+A queue is a data structure in which elements can be added to the end of the queue and removed from the beginning of the queue. This is known as the First In, First Out (FIFO) principle, which means that the first element to enter the queue is also the first to leave. Queues are commonly used in data processing algorithms and in applications that require real-time event management.
+
 ```
 class Queue:
     def __init__(self):
@@ -169,13 +172,31 @@ class Queue:
     def size(self):
         return len(self.items)
 
-mi_cola = Queue()
+my_queue = Queue()
 
-mi_cola.enqueue(5) # agrega el elemento 5 al final de la cola
-mi_cola.enqueue(10) # agrega el elemento 10 al final de la cola
-print(mi_cola.size()) # imprime 2
-print(mi_cola.dequeue()) # elimina y devuelve el primer elemento de la cola (5)
-print(mi_cola.is_empty()) # imprime False, ya que la cola aún tiene un elemento (10)
+# adds the element 5 to the end of the queue
+my_queue.enqueue(5)
+
+# adds the element 10 to the end of the queue
+my_queue.enqueue(10)
+
+# prints 2
+print(my_queue.size())
+
+# removes and returns the first element of the queue (5)
+print(my_queue.dequeue())
+
+# prints False, since the queue still has one element (10)
+print(my_queue.is_empty())
 ```
+
+This program defines a Queue class that represents a queue. The queue is implemented as a list of elements called items. The class has four methods:
+
+init(self): the class constructor initializes the items list of elements.
+is_empty(self): returns True if the queue is empty, and False otherwise.
+enqueue(self, item): adds an element to the queue, at the end of the items list.
+dequeue(self): removes and returns the element at the beginning of the queue, i.e., the first element of the items list.
+size(self): returns the number of elements in the queue.
+
 ## Trees
 ## Hash tables
