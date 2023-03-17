@@ -20,6 +20,8 @@ Below you will find an example of each type of data structure, programmed in Pyt
 
 ## Arrays
 
+An array is a data structure that stores a collection of elements, typically of the same data type, in a contiguous block of memory. Each element in the array is identified by its index, which is an integer value representing its position in the array. Arrays are commonly used in programming to store and manipulate data efficiently, as they allow for direct access to any element in constant time. They can be initialized with a fixed size or dynamically resized as needed.
+
 ```
 # Create an array of integers.
 arr = [1, 2, 3, 4, 5]
