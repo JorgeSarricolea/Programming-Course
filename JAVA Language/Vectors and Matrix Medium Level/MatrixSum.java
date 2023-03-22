@@ -1,3 +1,6 @@
+/* Write a program that reads in two matrices of the same size and computes the sum of the two matrices.
+The program should then print out the resulting matrix. */
+
 import java.util.*;
 
 public class MatrixSum {

@@ -1,3 +1,6 @@
+/* Write a program that reads in two vectors of integers of equal length and finds the dot product of the two vectors.
+ The dot product of two vectors is the sum of the products of their corresponding elements. */
+
 import java.util.Scanner;
 
 public class DotProduct {

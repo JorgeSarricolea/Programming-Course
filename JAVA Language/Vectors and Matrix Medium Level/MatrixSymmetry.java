@@ -1,3 +1,6 @@
+/* Create a program that takes in a matrix of integers and checks whether or not it is symmetric. A matrix is symmetric if it is equal to its transpose.
+The program should print out whether or not the matrix is symmetric. */
+
 import java.util.Scanner;
 
 public class MatrixSymmetry {

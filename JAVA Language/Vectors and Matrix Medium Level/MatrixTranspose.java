@@ -1,3 +1,6 @@
+/* Create a program that takes in a matrix of integers and computes the transpose of the matrix. The transpose of a matrix is obtained by interchanging its rows and columns.
+The program should then print out the resulting transposed matrix. */
+
 import java.util.Scanner;
 
 public class MatrixTranspose {

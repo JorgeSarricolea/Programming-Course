@@ -1,3 +1,7 @@
+/* Write a program that reads in two vectors of integers of equal length and calculates the cross product of the two vectors.
+The cross product of two vectors is another vector that is perpendicular to both of them and its length is equal to the area
+  of the parallelogram formed by the two vectors. */
+
 import java.util.Scanner;
 
 public class CrossProduct {

@@ -1,3 +1,6 @@
+/* Write a program that reads in two matrices of appropriate sizes and calculates the product of the two matrices.
+The program should then print out the resulting product matrix. */
+
 import java.util.Scanner;
 
 public class MatrixMultiplication {

@@ -1,3 +1,6 @@
+/* Create a program that takes in a vector of integers and removes all the duplicate elements in the vector.
+ The program should then print out the resulting vector with the duplicates removed. */
+
 import java.util.*;
 
 public class RemoveDuplicates {

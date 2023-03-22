@@ -1,3 +1,6 @@
+/* Create a program that takes in a vector of integers and checks if it is a palindrome. A vector is a palindrome if it reads the same forwards and backwards. 
+The program should print out whether or not the vector is a palindrome. */
+
 import java.util.*;
 
 public class PalindromeVector {
