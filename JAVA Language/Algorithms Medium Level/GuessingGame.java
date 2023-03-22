@@ -25,7 +25,7 @@ public class GuessingGame {
 
             attemptsLeft--;
         }
-
         System.out.println("Sorry, you didn't guess the number. The number was " + generatedNumber + ".");
     }
 }
+

@@ -13,5 +13,6 @@ public class LongestWord {
             }
         }
         System.out.println("The longest word is: " + longestWord);
+        scanner.close();
     }
 }

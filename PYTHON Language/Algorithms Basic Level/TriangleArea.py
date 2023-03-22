@@ -1,7 +1,5 @@
 # Create a program that calculates the area of a triangle. The user must enter the base and height.
 
-# Program to calculate the area of a triangle
-
 # Ask the user for the base and height of the triangle
 base = float(input("Enter the base of the triangle: "))
 height = float(input("Enter the height of the triangle: "))

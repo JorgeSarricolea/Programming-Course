@@ -16,5 +16,6 @@ public class AverageCalculator {
 
         double average = (double) sum / count;
         System.out.println("The average is: " + average);
+        scanner.close();
     }
 }

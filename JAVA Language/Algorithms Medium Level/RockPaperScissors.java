@@ -41,6 +41,7 @@ public class RockPaperScissors {
                 break;
             }
         }
+        sc.close();
     }
 
     // Check if a choice is valid
