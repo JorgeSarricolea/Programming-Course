@@ -28,14 +28,15 @@ Here are 6 basic exercises in Python, remember that you can also find them alrea
 
 ### Algorithms | Medium Level | PYTHON
 
-1. Create a program that asks the user for a vector of n elements, where n is an odd number. Then, find the middle element of the vector and display it on the screen.
-2. Create a program that asks the user for two vectors of equal length. Then, find the dot product of the vectors and display it on the screen.
-3. Create a program that asks the user for a vector of five elements. Then, sort the vector from smallest to largest and display the result on the screen.
-4. Create a program that asks the user for two vectors of equal length. Then, find the resulting vector from the subtraction of the two vectors and display it on the screen.
-5. Create a program that asks the user for two matrices of equal size. Then, find the sum of the two matrices and display it on the screen.
-6. Create a program that asks the user for a matrix of size n x m, where n is the number of rows and m is the number of columns. Then, find the minimum value of each row and display it on the screen.
-7. Create a program that asks the user for a matrix of size n x m and an integer k. Then, find the number of elements in the matrix that are greater than k and display it on the screen.
-8. Create a program that asks the user for two matrices of size n x m, where n is the number of rows and m is the number of columns. Then, find the matrix product of the two matrices and display it on the screen.
+
+1. Write a function that receives an integer and determines whether it is a perfect number or not. A number is perfect if it is equal to the sum of its divisors (excluding itself). Example: 6 is a perfect number because its divisors are 1, 2, and 3, and 1+2+3=6.
+2. Write a function that receives a list of integers and returns the sum of the even numbers in the list.
+3. Write a function that receives a string of text and returns the longest word in the string.
+4. Write a function that receives an integer and determines whether it is a prime number or not. A number is prime if it is only divisible by 1 and itself.
+5. Create a program that generates a random password for the user. The password should contain a mix of uppercase and lowercase letters, numbers, and symbols. The length of the password should be determined by the user.
+6. Create a program that simulates a simple calculator. The program should ask the user to input two numbers and an operation (+, -, *, /), and then display the result.
+7. Create a program that simulates a game of hangman. The program should choose a random word from a list and allow the user to guess letters until they guess the word or run out of attempts.
+8. Create a program that simulates a game of Tic Tac Toe. Users must be able to type a coordinate (Row,Column) to place the mark on the board.
 9. Create a program that asks the user for a sentence and then counts the number of vowels in the sentence using a loop and displays the result on the screen.
 10. Create a program that asks the user for two strings and checks if they are anagrams (have the same letters in a different order) using a function and displays the result on the screen.
 
