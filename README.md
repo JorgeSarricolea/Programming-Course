@@ -1,6 +1,6 @@
 # Welcome to the Programming and Operating Systems Course 👋
 
-First of all, I invite you to visit my website, where you can not only get more information about this course but also have Premium access so that I can personally teach you how to program step-by-step.
+First of all, I invite you to visit the Course Info [clicking here](https://discordapp.com/channels/1084144643966517249/1088861350832394434/1088861369010503770), where you can not only get more information about this course but also have Premium access so that I can personally teach you how to program step-by-step.
 
 This small repository will help you understand basic programming concepts, algorithms, functions, and methods. You will find some theory and a series of examples and exercises to practice, and they will be solved so you can understand the code. Don't worry if you code it differently; as programmers, we think differently when solving a problem. 
 
