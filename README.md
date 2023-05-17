@@ -4,7 +4,7 @@ First of all, I invite you to visit the Course Info [clicking here](https://jorg
 
 This small repository will help you understand basic programming concepts, algorithms, functions, and methods. You will find some theory and a series of examples and exercises to practice, and they will be solved so you can understand the code. Don't worry if you code it differently; as programmers, we think differently when solving a problem. 
 
-The important thing is that it is efficient and functional. The main languages we will be looking at are [Java](https://www.oracle.com/mx/java/technologies/downloads/) and [Python](https://www.python.org/downloads/). I recommend installing them and using [VSCode](https://code.visualstudio.com).
+The main languages we will be looking at are [Java](https://www.oracle.com/mx/java/technologies/downloads/) and [Python](https://www.python.org/downloads/). I recommend installing them and using [VSCode](https://code.visualstudio.com).
 
 Remember that before starting to program, I recommend starting with the [Introduction to Git and Github](https://github.com/JorgeSarricolea/Git-Github-Introduction).
 
